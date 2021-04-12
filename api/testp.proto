@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package api;
 
-option go_package = "test-go-proto/api";
+option go_package = "github.com/tyego/test-go-proto/api";
 
 message TestRequest {
   string name = 1;
