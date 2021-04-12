@@ -1,4 +1,4 @@
-module test-go-proto
+module github.com/tyego/test-go-proto
 
 go 1.16
 
