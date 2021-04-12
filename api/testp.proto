@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package api;
+
+option go_package = "test-go-proto/api";
+
+message TestRequest {
+  string name = 1;
+}
+
+message TestResponse {
+  string msg = 1;
+}
+
+service TestService {
+  rpc TestGet (TestRequest) returns (TestResponse);
+}
